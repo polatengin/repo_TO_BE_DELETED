@@ -8,7 +8,7 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-      - name: Run your custom action (version 1.0.0)
-        uses: polatengin/repo_TO_BE_DELETED@v1.0.0
+      - name: Run your custom action
+        uses: polatengin/repo_TO_BE_DELETED@v2.0
         with:
           name: 'Engin'
